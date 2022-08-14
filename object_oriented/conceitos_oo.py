@@ -10,7 +10,7 @@ def cria_conta(numero, titular, saldo, limite): #encapsular a criação dentro d
     conta = {"numero": numero, "titular": titular, "saldo": saldo, "limite": limite}   
     return conta 
 
-def deposita(conta, valor):
+def depositar(conta, valor):
         conta["saldo"] += valor # conta["saldo"] = conta["saldo"] + valor  #
 
 def saca(conta, valor):
