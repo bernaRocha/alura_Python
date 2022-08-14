@@ -8,7 +8,7 @@ class Conta:
         self.__numero = numero   # __ torna o atributo privado
         self.__titular = titular # o saldo da conta só deve ser modificado através dos métodos deposita e saca
         self.__saldo = saldo
-        self.__limite = limite
+        self.__limite = limite     # def __init__ função construtora
 
  ###### métodos  
  
@@ -19,8 +19,15 @@ class Conta:
     def depositar(self, valor):
         self.__saldo += valor
 
+    def __pode_sacar(self, valor_a_sacar):
+        valor_disponivel_saque = self.__saldo + self.__limite # condição para saque 
+        return valor_a_sacar <= (valor_disponivel_saque)
+    
     def sacar(self, valor):
-        self.__saldo -= valor
+        if(self.__pode_sacar(valor)):
+            self.__saldo -= valor
+        else:
+            print(f'O valor {self.valor} passou do limite')
 
     def transferir(self, valor, destino):
         self.sacar(valor) #self serve para acessar atributo e chamar método
@@ -46,6 +53,13 @@ class Conta:
     def limite(self, limite):
         self.__limite = limite
     
+    @staticmethod #  Conta.codigo_conta()  '001'
+    def codigo_banco(): 
+        return "001"
+
+    @staticmethod
+    def codigos_bancos():
+        return {'BB': '001', 'Caixa': '104', 'Bradesco': '237' }
 
 #>>> from conta import Conta
 #>>> Conta()
