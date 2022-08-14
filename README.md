@@ -1,5 +1,5 @@
 # Alura Python
-Cursos na Alura de Python: <br>
+### Cursos na Alura de Python: <br> <br>
   Python: Começando na linguagem <br>
   Python: Avançando na linguagem <br>
   Python: Entendendo a Orientação a Objetos <br>
