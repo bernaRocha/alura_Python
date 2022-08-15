@@ -39,10 +39,18 @@ class Serie(Programa):
          # Objeto a ser mostrado como string
         return f'Nome: {self._nome} - Ano: {self.ano} - Temporadas - {self.temporadas} | Likes: {self._likes}'
 
-class Playlist(list): # recebe tudo de list por herança
+class Playlist():
     def __init__(self, nome, programas):
         self.nome = nome
-        super().__init__(programas)
+        self._programas = programas
+
+    @property
+    def listagem(self): # Função para mostrar a lista
+        return self._programas
+    
+    @property
+    def tamanho(self):
+        return len(self._programas)
 
     # def tamanho(self):
     #     return len(self.programas)
@@ -70,8 +78,10 @@ print(f'Nome: {dark.nome} - Ano: {dark.ano} - Temporadas: {dark.temporadas} - | 
 filmes_e_series = [godzilla, dark, demolidor, tmep]
 playlist_fim_de_semana = Playlist('fim de semana', filmes_e_series)
 
-print(f'Tamanho da playlist: {len(playlist_fim_de_semana)}')
+print(f'Tamanho das playlist: {len(playlist_fim_de_semana.listagem)}')
 
-for programa in playlist_fim_de_semana:
+for programa in playlist_fim_de_semana.listagem:
    # programa.imprime() # pode ser o imprime da série ou filme
-    print(programa)
+    print(f'Lista de programas: {programa}')
+
+
