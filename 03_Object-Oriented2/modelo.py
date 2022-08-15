@@ -39,11 +39,26 @@ class Serie(Programa):
          # Objeto a ser mostrado como string
         return f'Nome: {self._nome} - Ano: {self.ano} - Temporadas - {self.temporadas} | Likes: {self._likes}'
 
+class Playlist(list): # recebe tudo de list por herança
+    def __init__(self, nome, programas):
+        self.nome = nome
+        super().__init__(programas)
+
+    # def tamanho(self):
+    #     return len(self.programas)
+
+
 #########################
 
 godzilla = Filme('godzilla - rei dos mosntros', 2018, 127)
 godzilla.adicionar_like()
 print(f'Nome: {godzilla.nome} - Ano {godzilla.nome} - Duração {godzilla.duracao} - | Likes {godzilla.likes}')
+
+tmep = Filme('todo mundo em pânico', 1999, 100)
+demolidor = Serie('demolidor', 2016, 3)
+tmep.adicionar_like()
+
+demolidor.adicionar_like()
 
 dark = Serie('dark', 2019, 3)
 dark.adicionar_like()
@@ -52,8 +67,11 @@ print(f'Nome: {dark.nome} - Ano: {dark.ano} - Temporadas: {dark.temporadas} - | 
 
 #######################
 
-filmes_e_series = [godzilla, dark]
+filmes_e_series = [godzilla, dark, demolidor, tmep]
+playlist_fim_de_semana = Playlist('fim de semana', filmes_e_series)
 
-for programa in filmes_e_series:
+print(f'Tamanho da playlist: {len(playlist_fim_de_semana)}')
+
+for programa in playlist_fim_de_semana:
    # programa.imprime() # pode ser o imprime da série ou filme
     print(programa)
