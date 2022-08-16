@@ -39,10 +39,13 @@ class Serie(Programa):
          # Objeto a ser mostrado como string
         return f'Nome: {self._nome} - Ano: {self.ano} - Temporadas - {self.temporadas} | Likes: {self._likes}'
 
-class Playlist():
+class Playlist():    # Para conseguir continuar com as vantagens do polimorfismo sem precisar herdar a classe list
     def __init__(self, nome, programas):
         self.nome = nome
         self._programas = programas
+
+    def __getitem__(self, item):
+        return self._programas[item]
 
     @property
     def listagem(self): # Função para mostrar a lista
@@ -51,10 +54,6 @@ class Playlist():
     @property
     def tamanho(self):
         return len(self._programas)
-
-    # def tamanho(self):
-    #     return len(self.programas)
-
 
 #########################
 
@@ -78,9 +77,9 @@ print(f'Nome: {dark.nome} - Ano: {dark.ano} - Temporadas: {dark.temporadas} - | 
 filmes_e_series = [godzilla, dark, demolidor, tmep]
 playlist_fim_de_semana = Playlist('fim de semana', filmes_e_series)
 
-print(f'Tamanho das playlist: {len(playlist_fim_de_semana.listagem)}')
+print(f'Tamanho das playlist: {len(playlist_fim_de_semana)}')
 
-for programa in playlist_fim_de_semana.listagem:
+for programa in playlist_fim_de_semana:
    # programa.imprime() # pode ser o imprime da série ou filme
     print(f'Lista de programas: {programa}')
 
