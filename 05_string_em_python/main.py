@@ -20,7 +20,6 @@ if url == "":
 
 ### Separa base e os parâmetros
 
-
 indice_interrogacao = url.find('?')
 url_base = url[:indice_interrogacao]
 
