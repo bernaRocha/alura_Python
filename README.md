@@ -5,4 +5,5 @@
   Python: Entendendo a Orientação a Objetos <br>
   Python: Avançando na Orientação a Objetos <br>
   Python: Django: modelo, rotas e views [Incompleto] <br>
-  Python: String em Python: extraindo informações de uma URL
+  Python: String em Python: extraindo informações de uma URL <br>
+  Python e TDD: explorando testes unitários
