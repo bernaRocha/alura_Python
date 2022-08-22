@@ -1,7 +1,7 @@
 from datetime import date
 
 class Funcionario:
-    def __int__(self, nome, data_nascimento, salario):
+    def __init__(self, nome, data_nascimento, salario):
         self._nome = nome
         self._data_nascimento = data_nascimento
         self._salario = salario
