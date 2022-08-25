@@ -5,7 +5,57 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6963b68-ae89-42ea-a106-05968105cfa6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/06_python_tdd/codigo/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_Django-modelo-rotas-views/alurareceira/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_Django-modelo-rotas-views/alurareceira/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_Django-modelo-rotas-views/alurareceira/static/css/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_Django-modelo-rotas-views/alurareceira/static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_Django-modelo-rotas-views/alurareceira/static/css/classy-nav.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_Django-modelo-rotas-views/alurareceira/static/css/custom-icon.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_Django-modelo-rotas-views/alurareceira/static/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_Django-modelo-rotas-views/alurareceira/static/css/magnific-popup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_Django-modelo-rotas-views/alurareceira/static/css/nice-select.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_Django-modelo-rotas-views/alurareceira/static/css/owl.carousel.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_Django-modelo-rotas-views/alurareceira/static/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_Django-modelo-rotas-views/alurareceira/static/fonts/classy.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_Django-modelo-rotas-views/alurareceira/static/fonts/classy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_Django-modelo-rotas-views/alurareceira/static/fonts/classy.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_Django-modelo-rotas-views/alurareceira/static/fonts/classy.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_Django-modelo-rotas-views/alurareceira/static/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_Django-modelo-rotas-views/alurareceira/static/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_Django-modelo-rotas-views/alurareceira/static/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_Django-modelo-rotas-views/alurareceira/static/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_Django-modelo-rotas-views/alurareceira/static/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_Django-modelo-rotas-views/alurareceira/static/fonts/icomoon.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_Django-modelo-rotas-views/alurareceira/static/fonts/icomoon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_Django-modelo-rotas-views/alurareceira/static/fonts/icomoon.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_Django-modelo-rotas-views/alurareceira/static/fonts/icomoon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_Django-modelo-rotas-views/alurareceira/static/img/bg-img/foto_receita.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_Django-modelo-rotas-views/alurareceira/static/img/bg-img/tomate_banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_Django-modelo-rotas-views/alurareceira/static/img/core-img/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_Django-modelo-rotas-views/alurareceira/static/img/core-img/hamburger.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_Django-modelo-rotas-views/alurareceira/static/img/core-img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_Django-modelo-rotas-views/alurareceira/static/img/core-img/pizza.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_Django-modelo-rotas-views/alurareceira/static/js/active.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_Django-modelo-rotas-views/alurareceira/static/js/bootstrap/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_Django-modelo-rotas-views/alurareceira/static/js/bootstrap/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_Django-modelo-rotas-views/alurareceira/static/js/jquery/jquery-2.2.4.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_Django-modelo-rotas-views/alurareceira/static/js/plugins/plugins.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_Django-modelo-rotas-views/alurareceira/static/scss/_fonts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_Django-modelo-rotas-views/alurareceira/static/scss/_mixin.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_Django-modelo-rotas-views/alurareceira/static/scss/_responsive.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_Django-modelo-rotas-views/alurareceira/static/scss/_theme_color.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_Django-modelo-rotas-views/alurareceira/static/scss/style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_Django-modelo-rotas-views/alurareceira/static/site.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_Django-modelo-rotas-views/alurareceira/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_Django-modelo-rotas-views/alurareceira/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_Django-modelo-rotas-views/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/04_Django-modelo-rotas-views/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_Django-modelo-rotas-views/receitas/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/04_Django-modelo-rotas-views/receitas/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_Django-modelo-rotas-views/receitas/templates/receita.html" beforeDir="false" afterPath="$PROJECT_DIR$/04_Django-modelo-rotas-views/receitas/templates/receita.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06_python_tdd/codigo/bytebank.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06_python_tdd/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06_python_tdd/tests/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06_python_tdd/tests/test_bytebank.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,12 +80,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/home/bernardo/Documentos/alura/Alura_Python/07_Flask-web-app-com-python"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/06_python_tdd/codigo" />
