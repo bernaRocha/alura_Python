@@ -15,8 +15,9 @@ def ola():
     jogo2 = Jogo('God of War', 'Rack n Slash', 'PS2')
     jogo3 = Jogo('Scorn', 'Terror', 'PC')
     jogo4 = Jogo('Stray', 'Adventure', 'PC')
+    jogo5 = Jogo('Mortal Kombat', 'Gore', 'PS1')
     
-    lista_jogos = [jogo1, jogo2, jogo3, jogo4]
+    lista_jogos = [jogo1, jogo2, jogo3, jogo4, jogo5]
     
     return render_template('lista.html', titulo='Jogos', jogos=lista_jogos )
 
