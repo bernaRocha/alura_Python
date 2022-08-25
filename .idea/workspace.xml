@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6963b68-ae89-42ea-a106-05968105cfa6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/06_python_tdd/codigo/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06_python_tdd/codigo/bytebank.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06_python_tdd/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06_python_tdd/tests/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06_python_tdd/tests/test_bytebank.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_Flask-web-app-com-python/jogoteca.py" beforeDir="false" afterPath="$PROJECT_DIR$/07_Flask-web-app-com-python/jogoteca.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,12 +34,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/home/bernardo/Documentos/alura/alura_Python"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/06_python_tdd/codigo" />
