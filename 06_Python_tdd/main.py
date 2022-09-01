@@ -23,3 +23,9 @@ Teste = 27
 Teste = 17
 Funcionário(Bernardo, 07/03/1988, 2000)
 """
+
+ana = Funcionario('Ana', '12/03/1997', 1000000000)
+
+
+print(ana.calcular_bonus()) # Exception: O salário é muito alto para receber um bônus
+
