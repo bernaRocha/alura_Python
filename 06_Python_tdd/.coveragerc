@@ -1,0 +1,9 @@
+[run]
+source = ./codigo #### chama o cov apenas na pasta código, eveita a verborragia
+
+
+[report]
+exclude_lines = def __str__
+
+[html]
+directory = coverage_relatorio_html
