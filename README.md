@@ -6,5 +6,7 @@
   Python: Avançando na Orientação a Objetos <br>
   Python: String em Python: extraindo informações de uma URL <br>
   Python e TDD: explorando testes unitários <br>
-  Flask: crie uma webapp com Python
+  Flask: crie uma webapp com Python <br>
+  Flask: avançando no desenvolvimento web com Python [Cursando]
+
 
